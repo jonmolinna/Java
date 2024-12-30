@@ -1,0 +1,80 @@
+Documentacion
+---------------------------------
+https://start.spring.io/
+
+    - Java
+    - Maven
+    - 3.4.0
+
+Group       -> com.dailycodework
+Artifact    -> dream-shops
+Name        -> dream-shops
+Description -> A simple eCommerce demo app
+Package name -> com.dailycodework.dreamshops
+
+Packaging   -> Jar
+Java        -> 17
+
+    -> ADD DEPENDENCIES
+        -> Spring Web (WEB)
+        -> Spring Data JPA (SQL)
+        -> Lombok (DEVELOPER TOOLS)
+        -> MySQL Driver (SQL)
+        -> Validation
+    
+    -> GENERATE
+
+
+DEMO - 2
+---------------------------------
+docker
+    - docker pull postgres:14.4
+    - docker image ls -> ve imagenes
+    - create container
+        - docker run --name postgres-dallase -e POSTGRES_PASSWORD=Molina125$$ -d -p 5432:5432 postgres:14.4
+    - docker container list -> ve contenedores creados
+    - Ingresando al container shell de linux
+        - docker exec -it postgres-dallase bash
+        - ingresando al BD postgres
+            - psql -U postgres
+            - \du -> ver role
+            - create database inmueble;
+            - \l -> ver BD
+            - \c inmueble -> ingresando al BD
+            - \d -> ver tables
+
+create spring
+--------------------------------------------------------
+- https://start.spring.io/
+    - Project: Maven
+    - Language: Java
+    - Spring Boot: 3.4.1
+
+    Project Metadata
+        - Group: com.dallas
+        - Artifact: spring-boot-microservice-1-inmueble
+        - Name: spring-boot-microservice-1-inmueble
+        - Description: Demo project for Spring Boot
+        - Package name: com.dallas.spring-boot-microservice-1-inmueble
+        - Packaging: Jar
+        - Java: 17
+    
+    Dependencies
+        - Spring Web (Web)
+        - Spring Security (Security)
+        - Spring Data JPA (SQL)
+        - Rest Repositories (Web)
+        - PostgreSQL Driver (SQL)
+        - Eureka Discovery Client (Spring Cloud Discovery) -> comunicacion entre microservicios
+        - Lombok (Developer Tools) -> codigo limpio
+
+- GENERATE
+
+-------------------------------------------------------------------------
+-> Spring Web (Web)
+-> Lombok (Developer Tools)
+-> Spring Boot DevTools (Developer Tools)
+-> MySQL Driver (SQL)
+-> Spring Data JPA (SQL)
+
+
