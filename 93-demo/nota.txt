@@ -1,0 +1,6 @@
+descargar pg
+docker-compose up -d
+
+imagenes
+---------------------------------------
+docker hub
