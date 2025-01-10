@@ -68,6 +68,8 @@ create spring
         - Eureka Discovery Client (Spring Cloud Discovery) -> comunicacion entre microservicios
         - Lombok (Developer Tools) -> codigo limpio
 
+        - MySQL Driver (SQL)
+
 - GENERATE
 
 -------------------------------------------------------------------------
@@ -76,5 +78,19 @@ create spring
 -> Spring Boot DevTools (Developer Tools)
 -> MySQL Driver (SQL)
 -> Spring Data JPA (SQL)
+
+
+SPRING AUTH
+------------------------------------------------------------------------
+- Project: Maven
+- Language: Java
+- Packaging: Jar
+- Java: 17
+
+- Spring Web
+- Spring Security
+- MySQL Driver
+- Spring Data JPA
+- Lombok
 
 
